@@ -1,0 +1,13 @@
+<gadgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_objects_1_2 http://www.gatein.org/xml/ns/gadgets_1_0"
+	xmlns="http://www.gatein.org/xml/ns/gadgets_1_0">
+
+	<gadget name="SkypeTalk">
+		<path>/gadgets/SkypeTalk/SkypeTalk.xml</path>
+	</gadget>
+	<gadget name="RemoteYouTubeGadget">
+		<url>http://hosting.gmodules.com/ig/gadgets/file/1000800699
+			21643878012/youtube.xml</url>
+	</gadget>
+
+</gadgets>

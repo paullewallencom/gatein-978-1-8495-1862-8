@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    version="2.0">
+    <portlet>
+        <portlet-name>WatchList-PRP</portlet-name>
+        <portlet-class>gatein.cookbook.chapter6.WatchlistPortlet</portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>WatchList - PRP portlet</title>
+        </portlet-info>
+        <supported-public-render-parameter>watch_stock</supported-public-render-parameter>
+    </portlet>
+    <public-render-parameter>
+        <identifier>watch_stock</identifier>
+        <qname xmlns:gi="http://www.gatein.org/xml/ns/cookbook">gi:watch_stock</qname>
+    </public-render-parameter>
+</portlet-app>

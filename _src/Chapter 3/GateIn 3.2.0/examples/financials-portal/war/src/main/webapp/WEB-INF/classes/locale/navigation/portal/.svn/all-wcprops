@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/navigation/portal
+END
+classic_cs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/navigation/portal/classic_cs.properties
+END
+classic_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/navigation/portal/classic_es.properties
+END
+classic_it.properties
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/navigation/portal/classic_it.properties
+END
+classic_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/navigation/portal/classic_en.properties
+END

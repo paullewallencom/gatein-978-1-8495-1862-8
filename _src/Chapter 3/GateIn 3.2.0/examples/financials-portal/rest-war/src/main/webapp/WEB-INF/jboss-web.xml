@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<jboss-web>
+  <security-domain>java:/jaas/gatein-domain-financials-portal</security-domain>
+</jboss-web>

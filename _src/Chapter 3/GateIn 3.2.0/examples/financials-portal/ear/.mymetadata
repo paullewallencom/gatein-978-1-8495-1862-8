@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enterprise-project
+  version="1.0.0"
+  name="GateIn Portal Sample Portal Ear"
+  id="myeclipse.1331310714145"
+  j2ee-spec="1.3"
+  archive="GateIn Portal Sample Portal Ear.ear">
+  <project-modules>
+    <project-module
+      type="WEB"
+      name="GateIn Portal Sample Portal War"
+      id="myeclipse.1331310713258"
+      context-root="/sample-portal"
+      j2ee-spec="6.0"
+      archive="GateIn Portal Sample Portal War.war">
+      <attributes>
+        <attribute name="webrootdir" value="src/main/webapp" />
+      </attributes>
+    </project-module>
+    <project-module
+      type="WEB"
+      name="GateIn Portal Sample Portal Rest War"
+      id="myeclipse.1331310713868"
+      context-root="/rest-sample-portal"
+      j2ee-spec="6.0"
+      archive="GateIn Portal Sample Portal Rest War.war">
+      <attributes>
+        <attribute name="webrootdir" value="src/main/webapp" />
+      </attributes>
+    </project-module>
+  </project-modules>
+</enterprise-project>
+

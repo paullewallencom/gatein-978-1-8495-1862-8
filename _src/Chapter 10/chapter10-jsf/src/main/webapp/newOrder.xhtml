@@ -1,0 +1,32 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<h:body>
+		<ui:composition template="/templates/layout.xhtml">
+			<ui:define name="content">
+				<h:form>
+					<h:panelGrid columns="2">
+						<h:outputLabel value="Order Type" for="orderType" />
+						<h:selectOneMenu id="orderType" value="#{order.type}" required="true">
+							<f:selectItems value="#{order.orderTypeValues}"/>
+						</h:selectOneMenu>
+
+						<h:outputLabel value="Trade Instruction" for="tradeInstructionType" />
+						<h:selectOneMenu id="tradeInstructionType" value="#{order.tradeInstruction}" required="true">
+							<f:selectItems value="#{order.tradeInstructionValues}"/>
+						</h:selectOneMenu>
+
+						<h:outputLabel value="Account Number" for="acctNum" />
+						<h:inputText id="acctNum" value="#{order.accountNumber}" />
+
+						<h:outputLabel value="How many Stocks?" for="stocks" />
+						<h:inputText id="stocks" value="#{order.numberStocks}" />
+					</h:panelGrid>
+					<h:commandButton action="#{order.create}" value="Create Order" />
+				</h:form>
+			</ui:define>
+		</ui:composition>
+	</h:body>
+</f:view>

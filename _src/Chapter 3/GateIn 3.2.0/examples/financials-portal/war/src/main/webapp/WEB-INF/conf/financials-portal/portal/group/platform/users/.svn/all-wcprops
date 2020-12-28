@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/conf/sample-portal/portal/group/platform/users
+END
+navigation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/conf/sample-portal/portal/group/platform/users/navigation.xml
+END
+pages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/conf/sample-portal/portal/group/platform/users/pages.xml
+END

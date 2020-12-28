@@ -1,0 +1,22 @@
+<webui-configuration>
+	<ui-component-config>
+		<type>
+			my.sample.MyPortlet
+		</type>
+		<lifecycle>
+			org.exoplatform.webui.core.lifecycle.UIApplicationLifecycle
+		</lifecycle>
+		<template>
+			app:/groovy/MyApplication/webui/component/MyPortlet.gtmpl
+		</template>
+	</ui-component-config>
+
+	<application>
+		<ui-component-root>
+			my.sample.MyPortlet
+		</ui-component-root>
+		<state-manager>
+			org.exoplatform.webui.application.portlet.ParentAppStateManager
+		</state-manager>
+	</application>
+</webui-configuration>

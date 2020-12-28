@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/README.txt
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/pom.xml
+END

@@ -1,0 +1,35 @@
+<portlet-app version="1.0"
+	xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+	<portlet>
+		<description xml:lang="EN">Skype Talk Portlet Portlet</description>
+		<portlet-name>SkypeTalkPortlet</portlet-name>
+		<display-name>Skype Talk Portlet</display-name>
+		<portlet-class>
+org.exoplatform.webui.application.portlet.PortletApplicationController
+      </portlet-class>
+		<init-param>
+			<name>webui.configuration</name>
+			<value>/WEB-INF/conf/portlet/skypetalk/SkypeTalkPortlet/webui/configuration.xml</value>
+		</init-param>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<supported-locale>en</supported-locale>
+		<resource-bundle>
+locale.portlet.gadget.SkypeTalkPortlet
+      </resource-bundle>
+		<portlet-info>
+			<title>Skype Gadget Portlet</title>
+			<short-title>Skype Gadget Portlet</short-title>
+			<keywords>SkypeTalk</keywords>
+		</portlet-info>
+		<portlet-preferences>
+			<preference>
+				<name>url</name>
+				<value>local://SkypeTalk</value>
+			</preference>
+		</portlet-preferences>
+	</portlet>
+</portlet-app>

@@ -1,0 +1,20 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<h:body>
+		<ui:composition template="/templates/layout.xhtml">
+		    <ui:define name="header">
+		    	<h3>Order Success!</h3>
+		    </ui:define>
+
+			<ui:define name="content">
+				<h5>Congratulations, your order was submitted for processing</h5>
+				<h:form>
+					<h:commandButton action="newOrder" value="Place another order" />
+				</h:form>
+			</ui:define>
+		</ui:composition>
+	</h:body>
+</f:view>

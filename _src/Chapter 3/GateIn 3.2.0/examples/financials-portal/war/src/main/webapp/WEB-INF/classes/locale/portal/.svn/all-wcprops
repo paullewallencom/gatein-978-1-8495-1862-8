@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal
+END
+sample_it.properties
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/sample_it.properties
+END
+webui_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/webui_en.properties
+END
+sample_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/sample_en.properties
+END
+webui_cs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/webui_cs.properties
+END
+sample_cs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/sample_cs.properties
+END
+webui_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/webui_es.properties
+END
+sample_es.properties
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/sample_es.properties
+END
+webui_it.properties
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/gatein/!svn/ver/8483/portal/tags/3.2.0-GA/examples/portal/war/src/main/webapp/WEB-INF/classes/locale/portal/webui_it.properties
+END

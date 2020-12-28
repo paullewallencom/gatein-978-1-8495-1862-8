@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" 
+	version="2.0">
+
+    <portlet>
+        <portlet-name>Order-JSF</portlet-name>
+        <portlet-class>javax.portlet.faces.GenericFacesPortlet</portlet-class>
+        <init-param>
+            <name>javax.portlet.faces.defaultViewId.view</name>
+            <value>/newOrder.xhtml</value>
+        </init-param>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>Order JSF Portlet</title>
+        </portlet-info>
+        <supported-publishing-event>
+            <qname xmlns:jsf="urn:chapter10:jsf:order:event">jsf:OrderEvent</qname>
+        </supported-publishing-event>
+    </portlet>
+    <portlet>
+        <portlet-name>OrderList-JSF</portlet-name>
+        <portlet-class>javax.portlet.faces.GenericFacesPortlet</portlet-class>
+        <init-param>
+            <name>javax.portlet.faces.defaultViewId.view</name>
+            <value>/orderList.xhtml</value>
+        </init-param>
+        <init-param>
+            <name>javax.portlet.faces.bridgeEventHandler</name>
+            <value>gatein.cookbook.chapter10.OrderEventHandler</value>
+        </init-param>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>Order List JSF Portlet</title>
+        </portlet-info>
+        <supported-processing-event>
+            <qname xmlns:jsf="urn:chapter10:jsf:order:event">jsf:OrderEvent</qname>
+        </supported-processing-event>
+    </portlet>
+    <portlet>
+        <portlet-name>OrderList-RichFaces</portlet-name>
+        <portlet-class>javax.portlet.faces.GenericFacesPortlet</portlet-class>
+        <init-param>
+            <name>javax.portlet.faces.defaultViewId.view</name>
+            <value>/rfOrderList.xhtml</value>
+        </init-param>
+        <init-param>
+            <name>javax.portlet.faces.bridgeEventHandler</name>
+            <value>gatein.cookbook.chapter10.OrderEventHandler</value>
+        </init-param>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>Order List RichFaces Portlet</title>
+        </portlet-info>
+        <supported-processing-event>
+            <qname xmlns:jsf="urn:chapter10:jsf:order:event">jsf:OrderEvent</qname>
+        </supported-processing-event>
+    </portlet>
+    <event-definition>
+        <qname xmlns:jsf="urn:chapter10:jsf:order:event">jsf:OrderEvent</qname>
+        <value-type>gatein.cookbook.chapter10.OrderEvent</value-type>
+    </event-definition>
+</portlet-app>

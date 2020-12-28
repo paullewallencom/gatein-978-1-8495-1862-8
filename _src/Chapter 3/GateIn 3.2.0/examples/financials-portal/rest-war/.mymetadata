@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="GateIn Portal Sample Portal Rest War"
+  id="myeclipse.1331310713868"
+  context-root="/rest-sample-portal"
+  j2ee-spec="6.0"
+  archive="GateIn Portal Sample Portal Rest War.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

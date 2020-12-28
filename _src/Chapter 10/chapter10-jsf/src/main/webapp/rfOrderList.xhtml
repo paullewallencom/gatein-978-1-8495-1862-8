@@ -1,0 +1,49 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j">
+
+	<h:body>
+		<ui:composition template="/templates/layout.xhtml">
+		    <ui:define name="header">
+		    </ui:define>
+
+			<ui:define name="content">
+				<h:outputText value="There are currently no active orders" rendered="#{empty orderList.activeOrders}" />
+				<rich:dataTable value="#{orderList.activeOrders}" var="ord" rendered="#{not empty orderList.activeOrders}" border="1" style="text-align:center">
+					<f:facet name="header">
+						<h:outputText value="Active Orders" />
+					</f:facet>
+					<rich:column>
+						<f:facet name="header">Order Type</f:facet>
+						#{ord.type}
+					</rich:column>
+					<rich:column>
+						<f:facet name="header">Trade Instruction</f:facet>
+						#{ord.tradeInstruction}
+					</rich:column>
+					<rich:column>
+						<f:facet name="header">Account Number</f:facet>
+						#{ord.accountNumber}
+					</rich:column>
+					<rich:column>
+						<f:facet name="header">Number of Stocks</f:facet>
+						#{ord.numberStocks}
+					</rich:column>
+					<rich:column>
+						<f:facet name="header">Date Entered</f:facet>
+						<h:outputText value="#{ord.entryDate}">
+							<f:convertDateTime pattern="hh:mm:ssa d-M-yyyy" />
+						</h:outputText>
+					</rich:column>
+					<rich:column>
+						<f:facet name="header">Status</f:facet>
+						#{ord.status}
+					</rich:column>
+				</rich:dataTable>
+			</ui:define>
+		</ui:composition>
+	</h:body>
+</f:view>

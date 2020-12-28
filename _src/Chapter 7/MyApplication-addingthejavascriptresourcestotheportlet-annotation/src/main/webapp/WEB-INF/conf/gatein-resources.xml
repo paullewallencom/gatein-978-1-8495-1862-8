@@ -1,0 +1,18 @@
+<portlet-skin>
+	<application-name>
+		MyApplication
+	</application-name>
+	<portlet-name>MyPortlet</portlet-name>
+	<skin-name>Default</skin-name>
+	<css-path>
+		/skin/portal/webui/component/My/DefaultStylesheet.css
+	</css-path>
+</portlet-skin>
+<javascript>
+   <param>
+      <js-module>eXo.webui.Mycomponent</js-module>
+      <js-path>
+        /javascript/eXo/webui/Mycomponent.js
+     </js-path>
+   </param>
+</javascript>

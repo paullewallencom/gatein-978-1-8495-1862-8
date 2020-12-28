@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="gatein-sample-portal">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="exo.portal.sample.portal.config-3.2.0-GA.jar" deploy-path="/" handle="module:/resource/exo.portal.sample.portal.config/exo.portal.sample.portal.config">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sample-portal.war" deploy-path="/" handle="module:/resource/exo.portal.sample.portal.war/exo.portal.sample.portal.war">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rest-sample-portal.war" deploy-path="/" handle="module:/resource/exo.portal.sample.portal.rest-war/exo.portal.sample.portal.rest-war">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="exo.portal.sample.portal.jar-3.2.0-GA.jar" deploy-path="/" handle="module:/resource/exo.portal.sample.portal.jar/exo.portal.sample.portal.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chromattic.api-1.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/chromattic/chromattic.api/1.1.2/chromattic.api-1.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chromattic.spi-1.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/chromattic/chromattic.spi/1.1.2/chromattic.spi-1.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcr-1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/javax/jcr/jcr/1.0/jcr-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chromattic.apt-1.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/chromattic/chromattic.apt/1.1.2/chromattic.apt-1.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chromattic.metamodel-1.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/chromattic/chromattic.metamodel/1.1.2/chromattic.metamodel-1.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflext.jlr-1.1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/reflext/reflext.jlr/1.1.0/reflext.jlr-1.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflext.api-1.1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/reflext/reflext.api/1.1.0/reflext.api-1.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflext.core-1.1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/reflext/reflext.core/1.1.0/reflext.core-1.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflext.spi-1.1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/reflext/reflext.spi/1.1.0/reflext.spi-1.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflext.apt-1.1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/reflext/reflext.apt/1.1.0/reflext.apt-1.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chromattic.common-1.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/chromattic/chromattic.common/1.1.2/chromattic.common-1.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.5.8.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

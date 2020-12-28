@@ -1,0 +1,18 @@
+@import url(/eXoResources/skin/DefaultSkin/portal/webui/component/control/Stylesheet.css);
+@import url(/eXoResources/skin/DefaultSkin/portal/webui/component/customization/Stylesheet.css);
+@import url(/eXoResources/skin/DefaultSkin/portal/webui/component/view/Stylesheet.css);
+
+@import url(view/Stylesheet.css);
+
+body {
+        background: #eeeeee;
+        margin: 0px; padding: 0px;
+        font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        overflow-x: hidden;
+}
+
+a {
+        text-decoration: none;
+        color: black;
+}

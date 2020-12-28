@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 eXo Platform SAS. This is free software; you can 
+	redistribute it and/or modify it under the terms of the GNU Lesser General 
+	Public License as published by the Free Software Foundation; either version 
+	2.1 of the License, or (at your option) any later version. This software 
+	is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+	without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+	PURPOSE. See the GNU Lesser General Public License for more details. You 
+	should have received a copy of the GNU Lesser General Public License along 
+	with this software; if not, write to the Free Software Foundation, Inc., 
+	51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA, or see the FSF site: 
+	http://www.fsf.org. -->
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+	<portlet>
+		<description xml:lang="IT">JCR Portlet</description>
+		<portlet-name>JCRPortlet</portlet-name>
+		<display-name>JCR Portlet</display-name>
+		<portlet-class>chapter8.JCRPortlet</portlet-class>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>edit</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>JCR Portlet</title>
+			<short-title>JCR Portlet</short-title>
+			<keywords>Chapter 8</keywords>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<description xml:lang="IT">Replicated Portlet</description>
+		<portlet-name>ReplicatedPortlet</portlet-name>
+		<display-name>Replicated Portlet</display-name>
+		<portlet-class>chapter8.ReplicatedPortlet</portlet-class>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>edit</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Replicated Portlet</title>
+			<short-title>Replicated Portlet</short-title>
+			<keywords>Chapter 8</keywords>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<description xml:lang="IT">Read Replication Portlet</description>
+		<portlet-name>ReadReplicationPortlet</portlet-name>
+		<display-name>Read Replication Portlet</display-name>
+		<portlet-class>chapter8.ReadReplicationPortlet</portlet-class>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>edit</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Read Replication Portlet</title>
+			<short-title>Read Replication Portlet</short-title>
+			<keywords>Chapter 8</keywords>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<description xml:lang="IT">Data Distribution Portlet</description>
+		<portlet-name>DataDistributionPortlet</portlet-name>
+		<display-name>Data Distribution Portlet</display-name>
+		<portlet-class>chapter8.DataDistributionPortlet</portlet-class>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>edit</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Data Distribution Portlet</title>
+			<short-title>Data Distribution Portlet</short-title>
+			<keywords>Chapter 8</keywords>
+		</portlet-info>
+	</portlet>
+</portlet-app>

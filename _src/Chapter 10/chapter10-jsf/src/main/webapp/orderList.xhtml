@@ -1,0 +1,45 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<h:body>
+		<ui:composition template="/templates/layout.xhtml">
+		    <ui:define name="header">
+		    	<h3>Active Orders</h3>
+		    </ui:define>
+
+			<ui:define name="content">
+				<h:outputText value="There are currently no active orders" rendered="#{empty orderList.activeOrders}" />
+				<h:dataTable value="#{orderList.activeOrders}" var="ord" rendered="#{not empty orderList.activeOrders}" border="1" style="text-align:center">
+					<h:column>
+						<f:facet name="header">Order Type</f:facet>
+						#{ord.type}
+					</h:column>
+					<h:column>
+						<f:facet name="header">Trade Instruction</f:facet>
+						#{ord.tradeInstruction}
+					</h:column>
+					<h:column>
+						<f:facet name="header">Account Number</f:facet>
+						#{ord.accountNumber}
+					</h:column>
+					<h:column>
+						<f:facet name="header">Number of Stocks</f:facet>
+						#{ord.numberStocks}
+					</h:column>
+					<h:column>
+						<f:facet name="header">Date Entered</f:facet>
+						<h:outputText value="#{ord.entryDate}">
+							<f:convertDateTime pattern="hh:mm:ssa d-M-yyyy" />
+						</h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">Status</f:facet>
+						#{ord.status}
+					</h:column>
+				</h:dataTable>
+			</ui:define>
+		</ui:composition>
+	</h:body>
+</f:view>

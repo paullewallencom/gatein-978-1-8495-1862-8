@@ -1,0 +1,6 @@
+<%
+  def rcontext = _ctx.getRequestContext() ;
+%>
+<div id="$uicomponent.id" class="MyPortlet">
+   Started!!!
+</div>

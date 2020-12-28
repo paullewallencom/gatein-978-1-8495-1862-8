@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    version="2.0">
+    <portlet>
+        <portlet-name>StockSearch-Session</portlet-name>
+        <portlet-class>gatein.cookbook.chapter6.StockSearchPortlet</portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>Stock Search - Session portlet</title>
+        </portlet-info>
+    </portlet>
+    <portlet>
+        <portlet-name>WatchList-Session</portlet-name>
+        <portlet-class>gatein.cookbook.chapter6.WatchlistPortlet</portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>WatchList - Session portlet</title>
+        </portlet-info>
+    </portlet>
+</portlet-app>
